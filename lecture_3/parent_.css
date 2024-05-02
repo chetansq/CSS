@@ -1,0 +1,43 @@
+/* @import url("./child_.css"); */
+@import "/lecture_3/child_.css";
+/* p{
+    color: blue !important;
+} */
+
+/* h1{
+    color: yellowgreen;
+}
+
+h1{
+    color: aqua;
+} */
+
+/* h4{
+    color:brown
+}
+#box_id{
+    color: aqua;
+}
+.box_class{
+    color: blue;
+} */
+
+.parent {
+    color: red;
+}
+
+/* child */
+p {
+    color: blue;
+}
+
+p {
+    color: inherit;
+}
+
+p {
+    color: initial;
+}
+h6{
+    background-color: rgb(121, 194, 3);
+}
