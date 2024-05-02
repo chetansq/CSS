@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    padding: 10px 0px 10px 0px;
+    background-color: royalblue;
+    color: white;
+}
+
+h2 {
+    background-color: rosybrown;
+    color: white;
+    margin: 30px;
+}
+
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box1 {
+    border-style: dashed;
+    background-color: rgb(61, 137, 204);
+}
+
+.box2 {
+    border-style: dotted;
+    background-color: rgb(42, 179, 133);
+}
+
+.box3 {
+    border-style: double;
+    background-color: rgb(110, 206, 32);
+}
+
+.box4 {
+    border-style: groove;
+    background-color: rgb(136, 43, 190);
+}
+
+.box5 {
+    border-style: hidden;
+    background-color: rgb(192, 47, 149);
+}
+
+.box6 {
+    border-style: inherit;
+    background-color: rgb(219, 149, 58);
+}
+
+.box7 {
+    border-style: initial;
+    background-color: rgb(216, 205, 56);
+}
+
+.box8 {
+    border-style: inset;
+    background-color: rgb(204, 54, 54);
+}
+
+.box9 {
+    border-style: outset;
+    background-color: rgb(46, 177, 105);
+}
+
+.box10 {
+    border-style: ridge;
+    background-color: rgb(84, 121, 153);
+}
+
+.box11 {
+    border-style: solid;
+    background-color: rgb(98, 28, 163);
+}
+
+.box12 {
+    border-style: unset;
+    background-color: rgb(44, 192, 192);
+}
+
