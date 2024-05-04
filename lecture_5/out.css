@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rosybrown;
+    height: 100vh;
+}
+
+.margin {
+    background-color: aliceblue;
+    margin: 20px;
+    border: 4px solid;
+}
+
+.padding {
+    border: 4px solid;
+    padding: 20px;
+    background-color: white;
+}
+
+.visibility1 {
+    border: 2px solid;
+    visibility: hidden;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.visibility2 {
+    visibility: visible;
+    border: 2px solid;
+
+}
+
+.outline{
+    margin: 20px;
+    border: 5px solid;
+    outline: auto;
+}
