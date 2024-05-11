@@ -1,0 +1,53 @@
+/* order property */
+
+.order {
+    display: flex;
+}
+
+.box {
+
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    color: aliceblue;
+    margin: 10px;
+
+}
+
+.box1 {
+    background-color: rosybrown;
+    order: 5;
+
+}
+
+.box2 {
+    background-color: rgb(163, 104, 104);
+    order: 3;
+}
+
+.box3 {
+    background-color: rgb(145, 79, 79);
+    order: 1;
+}
+
+.box4 {
+    background-color: rgb(122, 47, 47);
+    order: 2;
+}
+
+.box5 {
+    background-color: rgb(126, 32, 32);
+    order: 4;
+}
+
+
+
+/* white-space */
+
+.white-space {
+    /* white-space: nowrap; */
+    white-space: pre;
+    /* white-space: pre-wrap; */
+    /* white-space: inherit; */
+    /* white-space: initial; */
+}
