@@ -1,0 +1,19 @@
+.border-box {
+    box-sizing: border-box;
+     color: red;
+     background-color: wheat;
+     height: 150px;
+     width: 1000px;
+     padding: 10px;
+     margin: 10px;
+}
+
+.content-box{
+    box-sizing: content-box;
+    color: rosybrown;
+    background-color: antiquewhite;
+    height: 150px;
+    width: 1000px;
+    padding: 10px;
+    margin: 10px;
+}
