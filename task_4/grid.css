@@ -19,18 +19,16 @@
     background-color: rosybrown;
 }
 
-.itema {
-    background-color: rosybrown;
-}
 
 .item2{
     grid-row: 2/6;
     background-color: skyblue;
 }
 
-.itemb {
+.item3 {
     background-color: royalblue;
     grid-row: 2/4;
+    grid-column: 2/5;
 }
 
 .item6 {
@@ -47,4 +45,5 @@
 div{
     text-align: center;
     font-size: 40px;
+    border:1px solid ;
 }
