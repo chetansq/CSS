@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    padding: 20px;
+
+    /* background-image */
+    background-image: url("./image/download.jpg");
+
+    /* for single image */
+    background-repeat: no-repeat;
+
+    /* size */
+    background-size: cover;
+    /* background-size: contain; */
+
+    /* attachment */
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+
+}
