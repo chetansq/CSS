@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
+
 .container {
     padding: 20px;
 
     gap: 20px;
     height: 100vh;
 }
+
+/* background clip */
 
 .clip {
     padding: 20px;
@@ -21,7 +24,6 @@
 }
 
 .clip1 {
-
     padding: 50px;
     width: 50%;
     color: white;
@@ -31,7 +33,6 @@
 }
 
 .clip2 {
-
     padding: 50px;
     width: 50%;
     color: white;
@@ -54,7 +55,10 @@ h4 {
     padding: 5px;
 }
 
-.list{
+
+/* list stlye  */
+
+.list {
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -63,4 +67,60 @@ h4 {
     height: 50vh;
 }
 
-.list1
+.list1 {
+    list-style-type: circle;
+}
+
+.list2 {
+    list-style-image: url("../lecture_12/image/download.jpg");
+
+}
+
+.list3 {
+
+    list-style-position: inside;
+    /* list-style-position: outside; */
+}
+
+/* width */
+.main_width {
+    padding: 20px;
+    /* display: flex; */
+
+    /* justify-content: center;
+    align-items: center; */
+    gap: 20px;
+    height: 100vh;
+}
+
+.width {
+    margin: 10px;
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    background-color: royalblue;
+}
+
+.min-width{
+    margin: 10px;
+    min-width: 500px;
+    max-width: 600px;
+    height: 350px;
+    background-color: rosybrown;
+}
+
+.height {
+    margin: 10px;
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    background-color: royalblue;
+}
+
+.min-height{
+    margin: 10px;
+    min-height: 500px;
+    max-height: 600px;
+    height: 350px;
+    background-color: rosybrown;
+}
