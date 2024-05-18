@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+
+    gap: 20px;
+    height: 100vh;
+}
+
+.clip {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50vh;
+}
+
+.clip1 {
+
+    padding: 50px;
+    width: 50%;
+    color: white;
+    background-color: royalblue;
+    background-clip: border-box;
+    border: 2px dashed black;
+}
+
+.clip2 {
+
+    padding: 50px;
+    width: 50%;
+    color: white;
+    background-color: royalblue;
+    background-clip: content-box;
+    border: 2px dashed black;
+}
+
+.clip3 {
+
+    padding: 50px;
+    width: 50%;
+    color: white;
+    background-color: royalblue;
+    background-clip: padding-box;
+    border: 2px dashed black;
+}
+
+h4 {
+    padding: 5px;
+}
+
+.list{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50vh;
+}
+
+.list1
