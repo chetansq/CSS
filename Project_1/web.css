@@ -448,7 +448,7 @@ hr {
 
 .i-set {
     display: flex;
-    justify-content:center  ;
+    justify-content: center;
     height: 9vh;
     /* width: 50%; */
     align-items: center;
@@ -465,7 +465,7 @@ hr {
 
 .i-set img:nth-child(1) {
     position: relative;
-   
+
 }
 
 .i-set img:nth-child(2) {
@@ -578,6 +578,58 @@ hr {
 
 }
 
-
-
 /* end description */
+
+/*  start location  */
+
+.location {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20PX;
+    gap: 30px;
+
+}
+
+.loc_txt {
+    padding: 20px;
+    text-align: center;
+}
+
+.loc_txt p:first-child {
+    padding: 20px;
+    font-size: xxx-large;
+}
+
+.loc_img {
+    display: flex;
+    gap: 20px;
+
+}
+
+.loc {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: url('image/home_top.jpg');
+    position: relative;
+    height: 250px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+}
+
+.loc p:nth-last-child(1) {
+    color: lightgray;
+}
+
+.new_listing{
+
+    
+}
