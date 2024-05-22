@@ -5,11 +5,12 @@
 }
 
 .position {
-   
+
     padding: 20px;
-    height: 160vh;
-    margin: 0px 0px 1000px 100px;
-    /* position: relative; */
+    height: 110vh;
+    margin: 0px 0px 100px 100px;
+    position: relative;
+    background-image: url('./image/ghaziabad-uttar-pradesh-homes-photos.webp');
 
 }
 
@@ -28,9 +29,10 @@
 
 .position2 {
     left: 400px;
-    
+
     position: fixed;
     cursor: cell;
+
 }
 
 .position3 {
@@ -48,5 +50,5 @@
 .position5 {
     position: sticky;
     cursor: copy;
-    top:100px;
+    top: 100px;
 }
