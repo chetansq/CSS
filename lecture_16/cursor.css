@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.position {
+   
+    padding: 20px;
+    height: 160vh;
+    margin: 0px 0px 1000px 100px;
+    /* position: relative; */
+
+}
+
+.positions {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: white;
+}
+
+.position1 {
+    position: static;
+    cursor: alias;
+}
+
+.position2 {
+    left: 400px;
+    
+    position: fixed;
+    cursor: cell;
+}
+
+.position3 {
+
+    position: relative;
+    cursor: col-resize;
+}
+
+.position4 {
+    position: absolute;
+    cursor: copy;
+    right: 100px;
+}
+
+.position5 {
+    position: sticky;
+    cursor: copy;
+    top:100px;
+}
