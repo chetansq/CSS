@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    .jersey-20-charted-regular {
+        font-family: "Jersey 20 Charted", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+}
+
 /* container section */
 .container {
 
@@ -594,7 +603,7 @@ hr {
     justify-content: center;
 
     gap: 30px;
-    background-image: url('./image/ghaziabad-uttar-pradesh-homes-photos.webp');
+    background-image: url('./image/images/card6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -898,7 +907,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 80%;
     margin: auto;
 
     .agent_txt {
@@ -911,6 +920,7 @@ hr {
         margin: 30px 0px;
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
     .aimage {
@@ -923,6 +933,8 @@ hr {
     .aimage>img {
         border-radius: 10px;
         margin-bottom: 10px;
+        height: 300px;
+        /* width: 250px; */
     }
 
     .aimage>p:nth-child(3) {
@@ -1014,23 +1026,27 @@ hr {
 
     .find_out {
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         align-items: center;
-        width: 100%;
-        /* height: 3rem; */
+        /* width: 100%; */
         border: 1px solid black;
-        padding: 5px 5px;
+        padding: 0.5rem;
         border-radius: 8px;
+        gap: 10px;
 
 
     }
 
     .find_out input {
+        /* height: 1rem; */
         border: none;
-
+        padding: 10px 0px;
+        background-color: transparent;
+        flex: 1;
     }
 
     .find_out a {
+
         background-color: orangered;
         padding: 10px 30px;
         border-radius: 10px;
@@ -1146,10 +1162,12 @@ hr {
     .j_email {
         display: flex;
         justify-content: center;
-
         padding: 5px 5px;
         border: 1px solid white;
         border-radius: 7px;
+        gap: 10px;
+        /* width: 500px; */
+
     }
 
     .journy_email {
@@ -1181,14 +1199,16 @@ hr {
     justify-content: center;
     text-align: center;
 }
-.inquiry p{
+
+.inquiry p {
     font-size: xxx-large;
 }
-.inquiry p span{
- color: orangered;
+
+.inquiry p span {
+    color: orangered;
 }
 
-.inquiry a{
+.inquiry a {
     text-align: center;
     background-color: black;
     width: 15%;
@@ -1196,15 +1216,50 @@ hr {
     font-size: small;
     padding: 10px;
     border-radius: 10px;
-    
+
 }
+
 /* End inquiry */
 
 /* start footer */
+.footer {
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+}
+
+.foot {
+    border-top: 1px solid grey;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact_1 p:first-child {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.contact_1 p:nth-child(2) {
+    text-decoration: underline;
+    padding: 2px;
+    font-size: x-large;
+}
+
+.contact_icon {
+    font-size: x-large;
+    padding: 5px;
+}
 
 .logo_1 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 5px;
 }
@@ -1215,4 +1270,37 @@ hr {
     aspect-ratio: 1;
     border-radius: 50%;
 }
+
+.a a {
+    color: gray;
+    line-height: 2rem;
+}
+
+.a p {
+    margin: 10px 0px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid gray;
+    padding-right: 80px;
+
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid gray;
+    padding-right: 80px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* End footer */
