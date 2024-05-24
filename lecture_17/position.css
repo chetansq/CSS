@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    gap: 20px;
+    background-color: lightgrey;
+}
+
+.position {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px;
+    gap: 20px;
+    font-size: x-large;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.p1 {
+    background-color: red;
+}
+
+.static2 {
+    background-color: green;
+}
+
+.relative2 {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    background-color: green;
+}
+
+.position_absolute {
+    position: relative;
+}
+
+.absolute2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    top: 30px;
+    left: 30px;
+}
