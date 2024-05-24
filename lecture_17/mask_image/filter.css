@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.mask_image {
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url('../iamge/Untitled-design-10-1.avif');
+    background-size: 50%;
+    mask-size: 40%;
+    background-repeat: no-repeat;
+    mask-image: url('../iamge/imgbin-mask-encapsulated-postscript-others-8nNPqmekvSABuGXRZFajKnvUS_t-removebg-preview.png');
+    mask-repeat: no-repeat;
+    mask-position: center;
+    background-position: center;
+
+}
+
+.mask_image2 {
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/text-nature-metal-letters-on-a-rock-in-green-forest-free-photo.jpg?w=600&quality=80');
+    background-size: 50%;
+    mask-size: 40%;
+    background-repeat: no-repeat;
+    mask-image: url('../iamge/imgbin-mask-encapsulated-postscript-others-8nNPqmekvSABuGXRZFajKnvUS_t-removebg-preview.png');
+    mask-repeat: no-repeat;
+    mask-position: center;
+    background-position: center;
+
+}
+
+.filter {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+
+img:nth-child(1) {
+    filter: blur(1px);
+
+}
+
+img:nth-child(2) {
+    filter: drop-shadow(2px 2px 40px black);
+
+}
+
+img:nth-child(3) {
+    filter: brightness(50%);
+
+}
+
+img:nth-child(4) {
+    filter: grayscale(100%);
+
+}
+
+img:nth-child(5) {
+    filter: contrast(5);
+
+}
