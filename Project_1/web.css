@@ -204,13 +204,13 @@ button {
 
 .profile {
 
-    /* padding: 3rem;
+    padding: 3rem 1rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-radius: 20px; */
+    border-radius: 20px;
     display: flex;
-    justify-content: space-evenly;
+   flex: 1;
 
 }
 
@@ -221,6 +221,7 @@ button {
     align-items: center;
     /* justify-content: center; */
     text-align: center;
+    flex: 1;
 }
 
 .p_image .gray {
@@ -235,9 +236,11 @@ button {
     aspect-ratio: 1;
 }
 
-.description {
+.description {display: flex;
+
     text-align: center;
     font-size: xx-large;
+    /* flex: 1; */
 }
 
 .description span {
@@ -258,6 +261,7 @@ button {
     font-size: large;
     /* text-align: center; */
     align-items: center;
+    flex: 1;
 }
 
 .rating span {
@@ -276,7 +280,7 @@ button {
 
 hr {
     height: 4px;
-    width: 50%;
+    width: 100%;
     background-color: black;
 }
 
@@ -299,7 +303,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: 80%; */
+    width: 80%;
     height: 100svh;
     margin: 50px auto;
     gap: 50px;
@@ -350,7 +354,7 @@ hr {
     aspect-ratio: 1;
     margin: 10px;
     /* border-radius: 50%; */
-    box-shadow: 1px 1px 10px 5px rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px 1px rgb(0, 0, 0);
 }
 
 
@@ -1132,7 +1136,7 @@ hr {
 /* start journy */
 
 .journey {
-    background-image: url('./image/ai-generated-8442717_1920.jpg');
+    background-image: url('./image/room-8054835_1920.jpg');
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
