@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+
+/* pagination 1 */
+
+.pagination_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid gray;
+
+    .page1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        height: 50px;
+        margin: auto;
+
+        border-radius: 20px;
+    }
+
+
+
+    .page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(241, 240, 240);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 2px 1px gray;
+
+        &:hover {
+            background-color: royalblue;
+            color: white;
+        }
+
+    }
+
+    .p1 {
+        height: 50px;
+        width: 50px;
+        background-color: orangered;
+        color: white;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.pagination_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid gray;
+    background-color: rgba(32, 177, 170, 255);
+
+
+    .page2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        height: 100px;
+        margin: auto;
+        background-color: white;
+        border-radius: 50px;
+        font-size: x-large;
+        padding: 20px;
+
+
+    }
+    .page_1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .page_1:hover {
+      
+        background-color: rgba(32, 177, 170, 255);
+        
+        color: white;
+
+    }
+
+    .page2 a {
+        color: rgba(32, 177, 170, 255);
+    }
+
+
+    .p2 {
+        text-align: center;
+        background: none;
+        text-decoration: none;
+        padding: 5px 20px;
+        border-radius: 20px;
+    }
+
+    .p2:hover{
+        background-color:  rgba(32, 177, 170, 255);
+       color: white;
+    }
+}
