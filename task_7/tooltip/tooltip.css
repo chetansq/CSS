@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+}
+
+.tooltip_1 {
+    height: 20vh;
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tool1 {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* width: 40%; */
+
+}
+
+.tip abbr {
+    text-decoration: none;
+    padding: 0.5rem;
+    border-block: 1px solid black;
+    border-inline: 1px solid black;
+}
+
+.tip {
+    /* border: 1px solid black; */
+    padding: 3px;
+    border-radius: 4px;
+}
+
+abbr {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.tool3 {
+    display: grid;
+    width: 50%;
+    margin: auto;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+
+}
+
+.t {
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+
+.tip_1 {
+    background-color: red;
+
+}
+
+.tip_2 {
+    background-color: green;
+
+}
+
+.tip_3 {
+    background-color: yellow;
+    color: black;
+}
+
+.tip_4 {
+    background-color: blue;
+
+}

@@ -9,6 +9,7 @@
     flex-direction: column;
     gap: 20px;
     height: 100vh;
+    padding: 50px;
 }
 
 /* pagination 1 */
