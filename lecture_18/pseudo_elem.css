@@ -1,0 +1,113 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Pseudo class */
+
+.class {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.class p:nth-child(2) {
+    font-size: large;
+    font-weight: bold;
+    color: royalblue;
+
+}
+
+
+
+.class a:nth-child(3) {
+
+
+    &:link {
+        color: purple;
+    }
+}
+
+.class a:nth-child(4) {
+
+
+    &:visited {
+        color: black;
+    }
+}
+
+.class a:nth-child(5) {
+
+    &:active {
+        color: red;
+    }
+}
+
+.class a:nth-child(6) {
+
+    &:hover {
+        color: yellow;
+        text-shadow: 1px 1px 1px black;
+    }
+}
+
+
+
+/* Pseudo element */
+
+h2::first-letter {
+    color: red;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.element h2::first-line {
+    background-color: lightgray;
+
+}
+
+p:nth-child(odd) {
+    &::after {
+        padding-left: 5px;
+        content: "after";
+        color: rosybrown;
+    }
+}
+
+p:nth-child(even) {
+    &::before {
+        padding-right: 5px;
+        content: "before";
+        color: royalblue;
+    }
+}
+
+p {
+    padding: 10px;
+}
+
+
+::selection {
+    color: lightgray;
+    background-color: royalblue;
+}
