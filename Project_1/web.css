@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -135,7 +136,7 @@ button {
 /* start search bar */
 
 .search_bar {
-    padding: 3rem;
+    padding: 1.5rem;
     /* margin-top: 5rem; */
     background-color: white;
     display: flex;
@@ -190,6 +191,7 @@ button {
     border-radius: 5px;
     color: white;
     padding: 10px 15px;
+    margin-left: 1rem;
 
     &:hover {
         background-color: lightgray;
@@ -305,7 +307,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    height: 100svh;
+    height: 80svh;
     margin: 50px auto;
     gap: 50px;
     padding-left: 1rem;
@@ -341,7 +343,7 @@ hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50svh;
+    height: 40svh;
 
 }
 
@@ -354,8 +356,7 @@ hr {
     width: 150px;
     aspect-ratio: 1;
     margin: 10px;
-    /* border-radius: 50%; */
-    box-shadow: 1px 1px 2px 1px rgb(0, 0, 0);
+
 }
 
 
@@ -397,14 +398,18 @@ hr {
 .image1 img {
     position: absolute;
     height: 100%;
-   
+
     width: 100%;
 
 }
 
+
+
 .p1 {
     font-size: xxx-large;
 }
+
+
 
 .play-icon {
     display: flex;
@@ -458,7 +463,7 @@ hr {
     width: 45%;
     border-radius: 20px;
     background-color: white;
-    position: absolute  ;
+    position: absolute;
     margin-top: 145px;
     gap: 10px;
 
@@ -737,12 +742,43 @@ hr {
 
     .hcard_image {
         padding: 10px;
-        background-image: url("./image/ghaziabad-uttar-pradesh-homes-photos.webp");
+        /* background-image: url("./image/ghaziabad-uttar-pradesh-homes-photos.webp"); */
         height: 200px;
         background-size: cover;
         border-radius: 10px;
 
     }
+
+    .card_h1 {
+        background-image: url("./image/images/card1.jpeg");
+
+    }
+
+    .card_h2 {
+        background-image: url("./image/images/card2.webp");
+
+    }
+
+    .card_h3 {
+        background-image: url("./image/images/card3.jpeg");
+
+    }
+
+    .card_h4 {
+        background-image: url("./image/images/card4.jpg");
+
+    }
+
+    .card_h5 {
+        background-image: url("./image/images/card5.jpeg");
+
+    }
+
+    .card_h6 {
+        background-image: url("./image/images/card6.jpg");
+
+    }
+
 
     .hcard_image p {
         background-color: rgb(27, 184, 98);
@@ -775,6 +811,10 @@ hr {
         color: gray;
     }
 
+    .detail>p>i {
+        color: gray;
+    }
+
     .detail {
         display: flex;
         justify-content: space-between;
@@ -796,10 +836,19 @@ hr {
     .money {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .money p {
         font-size: x-large;
+    }
+
+    .money .ri-arrow-right-up-line {
+        background-color: black;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 50%;
+        font-size: 1.5rem;
     }
 
     /* end card */

@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.anim1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: royalblue;
+    position: relative;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+
+}
+
+@keyframes circle {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    33% {
+        left: 90vw;
+        top: 0px;
+        background-color: red;
+    }
+
+    66% {
+
+        top: 50vh;
+        background-color: green;
+    }
+
+
+    100% {
+        bottom: 50vh;
+        background-color: aqua;
+    }
+}
