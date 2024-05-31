@@ -4,40 +4,89 @@
     box-sizing: border-box;
 }
 
+.animation {
+    background-color: black;
+    height: 100vh;
+}
+
 .anim1 {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    background-image: url('../float/image/home-7860106_1920.jpg');
     background-color: royalblue;
     position: relative;
     animation-name: circle;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-timing-function: linear;
-    animation-delay: 0; 
+    animation-iteration-count: infinite;
+    /* animation-delay: 0; */
+    /* background: linear-gradient(to bottom, red, orangered, yellow); */
+    /* outline: 2px solid white; */
+    outline-offset: 2px;
+    box-shadow: 0px 0px 30px white;
+    /* transition-duration: 7s; */
+    transform: translateY(100px);
 
 }
 
-@keyframes circle {
+/* .anim1::before {
+    content: "day";
+    display: none;
+}   
+
+.anim1::after {
+    content: "night";
+    display: none;
+} */
+
+/* @keyframes circle {
     0% {
         top: 0;
         left: 0;
+        background-size: 100% 100%;
+    
     }
 
-    33% {
+    25% {
         left: 90vw;
         top: 0px;
-        background-color: red;
+        background-size: 140% 130%;
+        background: linear-gradient(to bottom, blue, skyblue, white);
+
     }
 
-    66% {
+    50% {
 
         top: 50vh;
+        left: 90vw;
+        background-size: 170% 160%;
         background-color: green;
     }
+ 
 
+    75% {
+      
+        left: 0;
+        top: 50vh;
+       
+        background-size: 240% 200%;
+        background-color: aqua;
+    }
 
     100% {
-        bottom: 50vh;
-        background-color: aqua;
+        left: 0;
+        top: 0;
+    }
+}
+ */
+
+@keyframes cirlce {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(100px);
     }
 }
