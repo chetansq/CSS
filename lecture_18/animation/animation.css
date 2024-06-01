@@ -7,6 +7,9 @@
 .animation {
     background-color: black;
     height: 100vh;
+    overflow: hidden;
+    position: relative;
+
 }
 
 .anim1 {
@@ -14,22 +17,12 @@
     width: 100px;
     border-radius: 50%;
     background-image: url('../float/image/home-7860106_1920.jpg');
-    background-color: royalblue;
-    position: relative;
-    animation-name: circle;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    /* animation-delay: 0; */
-    /* background: linear-gradient(to bottom, red, orangered, yellow); */
-    /* outline: 2px solid white; */
+    animation: circle 10s linear infinite;
     outline-offset: 2px;
+    
     box-shadow: 0px 0px 30px white;
-    /* transition-duration: 7s; */
-    transform: translateY(100px);
-
+    
 }
-
 /* .anim1::before {
     content: "day";
     display: none;
@@ -81,12 +74,22 @@
 }
  */
 
-@keyframes cirlce {
-    from {
+@keyframes circle {
+    0% {
+        
         transform: translateY(0);
     }
 
-    to {
-        transform: translateY(100px);
+
+
+    50% {
+        
+translate: 95vw 90vh;
+    }
+
+    100% {
+        
+        
+        transform: translate(0, 0);
     }
 }
