@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+// flex content using @mixin
+
+@mixin flex($justify, $align-item) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align-item;
+}
+
+// header section start
+
+header {
+
+    @include flex(space-between, center);
+    height: 100px;
+
+    color: white;
+    padding: 10px;
+
+    // navigation list start
+
+    nav {
+        @include flex(space-between, center);
+        gap: 10px;
+        width: 50%;
+
+        a {
+
+            color: white;
+            text-decoration: none;
+            font-size: large;
+
+        }
+
+    }
+
+    // navigation list ended
+}
+
+// header section ended
+
+main {
+    background-image: url('./image/');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
