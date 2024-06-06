@@ -12,15 +12,28 @@
     align-items: $align-item;
 }
 
+$color: white;
+
 // header section start
 
 header {
 
     @include flex(space-between, center);
     height: 100px;
-
-    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    color: $color;
     padding: 10px;
+
+    // logo section start
+
+    .logo {
+        font-size: xxx-large;
+        font-weight: bold;
+    }
+
+    // logo section end
 
     // navigation list start
 
@@ -31,9 +44,14 @@ header {
 
         a {
 
-            color: white;
+            color: $color;
             text-decoration: none;
             font-size: large;
+            padding: 10px;
+
+            &:hover {
+                border-bottom: 2px solid green;
+            }
 
         }
 
@@ -45,8 +63,28 @@ header {
 // header section ended
 
 main {
-    background-image: url('./image/');
+    background-image: url('./image/ai-generated-8659507_1920.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    @include flex(center, center);
+    flex-direction: column;
+
+    p:first-child {
+        text-transform: uppercase;
+        color: $color;
+        text-shadow: 2px 2px 3px black;
+        font-size: 5rem;
+        text-align: center;
+
+        span {
+            color: royalblue;
+        }
+    }
+
+    p:nth-child(2) {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 3px black;
+    }
 }
