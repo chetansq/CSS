@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  height: 0px;
+}
+
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: royalblue;
+  width: 100%;
+}
+.main1 p:hover {
+  color: white;
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: red;
+  width: 100%;
+}
+.main2 p {
+  color: white;
+}
+.main2 p:hover {
+  color: yellow;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+@import "flex";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@mixin header($bg-color) {
+    height: 100vh;
+    background-color: $bg-color;
+    width: 100%;
+}
+
+header {
+    height: 0px;
+}
+
+.main1 {
+    @include flex;
+    @include header(royalblue);
+
+    p{
+        &:hover{
+            color: white;
+        }
+    }
+
+
+}
+
+.main2 {
+    @include flex;
+    @include header(red);
+    p{
+        color: white;
+        &:hover{
+            color: yellow;
+        }
+    }
+}
