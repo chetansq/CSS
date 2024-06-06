@@ -45,6 +45,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
 }
 main p:first-child {
   text-transform: uppercase;
@@ -59,5 +60,19 @@ main p:first-child span {
 main p:nth-child(2) {
   text-align: center;
   color: white;
+  text-transform: uppercase;
   text-shadow: 2px 2px 3px black;
+}
+main a {
+  color: white;
+  background-color: green;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  font-size: large;
+}
+main a:hover {
+  color: green;
+  background-color: rgba(255, 255, 255, 0.5);
 }/*# sourceMappingURL=web.css.map */

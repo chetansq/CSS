@@ -64,11 +64,13 @@ header {
 
 main {
     background-image: url('./image/ai-generated-8659507_1920.jpg');
+   
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     @include flex(center, center);
     flex-direction: column;
+    gap: 10px;
 
     p:first-child {
         text-transform: uppercase;
@@ -76,6 +78,7 @@ main {
         text-shadow: 2px 2px 3px black;
         font-size: 5rem;
         text-align: center;
+
 
         span {
             color: royalblue;
@@ -85,6 +88,24 @@ main {
     p:nth-child(2) {
         text-align: center;
         color: white;
+        text-transform: uppercase;
         text-shadow: 2px 2px 3px black;
+    }
+
+    a {
+        color: white;
+        background-color: green;
+        text-align: center;
+        text-decoration: none;
+        padding: 15px 40px;
+        text-transform: uppercase;
+        font-size: large;
+        
+
+        &:hover {
+            color: green;
+            background-color: rgba(255, 255, 255, 0.5);
+        
+        }
     }
 }
